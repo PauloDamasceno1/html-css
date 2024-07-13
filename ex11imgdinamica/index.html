@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/imgp.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagens/imgm.jpg" type="image/jpg">
+        <img src="imagens/imgg.jpg" alt="imagem flexível">
+    </picture>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Smoke.mp3" type="audio/mpeg">
+        <source src="midia/Smoke.ogg" type="audio/ogg">
+        <source src="midia/Smoke.wav" type="audio/wav">
+        <p>Se preferir faça o <a href="midia/Smoke.mp3">download</a>.</p> 
+    </audio>
+    
+</body>
+</html>
