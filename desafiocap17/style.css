@@ -31,7 +31,7 @@ header{
 }
 header > h1{
     color: var(--cor1);
-    font-family:'Idroid',cursive;
+    font-family: 'Idroid';
     padding-top: 5px;
     padding-bottom: 10px;
 }
@@ -58,11 +58,12 @@ main{
     margin: auto;
 }
 main h1{
-    font-family: 'Idroid',sans-serif;
+    font-family: 'Idroid';
     padding-left: 30px;
+    text-align: justify;
 }
 main h2{
-    font-family: 'Idroid',sans-serif;
+    font-family: 'Idroid';
     padding-left: 30px;
 }
 main p{
@@ -103,7 +104,7 @@ aside{
     padding-top: 2px;
 }
 aside h2{
-    font-family: 'Idroid' ,sans-serif;
+    font-family: 'Idroid';
     background-color: var(--cor5);
     text-indent: 30px;
     border-radius: 10px 10px 0px 0px;
@@ -137,7 +138,7 @@ footer{
     margin: auto;
 }
 #creditos{
-    background-color: var(--cor5);
+    background-color: var(--cor4);
     color: var(--cor1);
     padding-top: 2.5px;
     padding-bottom: 2.5px;
